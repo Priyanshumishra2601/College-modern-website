@@ -106,47 +106,6 @@ nav .fa{
 
 
 
-
-
-
-@media(max-width: 700px){
-    .text-box h1{
-        font-size: 60px;
-    }
-    .nav-links ul li {
-        display: block;
-        
-    }
-    .nav-links{
-        position: absolute;
-        background: red;
-        height: 100vh;
-        width: 200px;
-        top: 0;
-        right: -200px;
-        text-align: left;
-        z-index: 2;
-    }
-   nav .fa{
-    display: block;
-    color: #fff;
-    margin: 10px;
-    font-size: 22px;
-    cursor: pointer;
-   }
-   .nav-links ul{
-    padding: 22px;
-    font-size: 1.5rem;
-   }
-}
-
-
-
-
-
-
-
-
 .secondsec{
     height: 100vh;
 }
@@ -194,10 +153,7 @@ nav .fa{
 .course-col:hover{
     box-shadow: 0 0 50px 0px rgba(0,0,0,0.2);
 }
-@media(max-width: 700px){
-    .row{
-        flex-direction: column;
-    }
+
 }
 .campus{
     display: block;
@@ -393,5 +349,77 @@ float: right;
     cursor: pointer;
     padding: 18px 0;
     }
+
+
+
+@media(max-width: 700px) {
+    .text-box h1 {
+        font-size: 15pxpx;
+    }
+
+    .nav-links ul li {
+        display: block;
+    }
+
+    .nav-links {
+        position: absolute;
+        background: red;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+
+    nav .fa {
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+    .nav-links ul {
+        padding: 22px;
+        font-size: 1.5rem;
+    }
+
+    .secondsec{
+       display: inline-block;
+
+    }
+}
+@media(max-width:700px) {
+  
+        .row {
+            flex-direction: column;
+            display: inline-block;
+            padding: 0px;
+            justify-content: center;
+        }
+   .course-col h3{
+    font-size: 20px;
+
+   }
+
+   .course-col p{
+   display: inline-block;
+   }
+}
+
+@media(max-width:700px){
+    .testimonial-col img{
+       
+        margin-left: 0px;
+        margin-right: 15px;
+      
+    }
+
+    .contact h1{
+        font-size: 24px;
+    }
+}
 
     
